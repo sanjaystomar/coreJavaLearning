@@ -1,0 +1,348 @@
+{
+  "ITR": {
+    "ITR1": {
+      "TaxPaid": {
+        "TaxesPaid": {
+          "TCS": 0,
+          "AdvanceTax": 0,
+          "SelfAssessmentTax": 0,
+          "TDS": 1495462,
+          "TotalTaxesPaid": 1495462
+        },
+        "BalTaxPayable": 0
+      },
+      "Refund": {
+        "RefundDue": 233420,
+        "BankAccountDtls": {
+          "AddtnlBankDetails": [
+            {
+              "IFSCCode": "DEUT0797BGL",
+              "BankName": "DEUTSCHE BANK AG",
+              "BankAccountNo": "400006613710019",
+              "AccountType": "SB",
+              "UseForRefund": "true"
+            },
+            {
+              "IFSCCode": "SBIN0041151",
+              "BankName": "STATE BANK OF INDIA",
+              "BankAccountNo": "00000030484079248",
+              "AccountType": "SB",
+              "UseForRefund": "false"
+            }
+          ]
+        }
+      },
+      "CreationInfo": {
+        "IntermediaryCity": "Delhi",
+        "Digest": "EVcN3KCHe2umGUnku/PSgxeLbzee2IT0vPSEhA88tKY=",
+        "SWVersionNo": "R1",
+        "SWCreatedBy": "SW10012526",
+        "JSONCreatedBy": "SW10012526",
+        "JSONCreationDate": "2025-06-21"
+      },
+      "Form_ITR1": {
+        "FormName": "ITR-1",
+        "Description": "For Indls having Income from Salary, Pension, family pension and Interest",
+        "AssessmentYear": "2025",
+        "SchemaVer": "Ver1.0",
+        "FormVer": "Ver1.0"
+      },
+      "PersonalInfo": {
+        "AssesseeName": {
+          "FirstName": "SANJAY",
+          "MiddleName": "SINGH",
+          "SurNameOrOrgName": "TOMAR"
+        },
+        "PAN": "AKAPT6332Q",
+        "DOB": "1987-10-01",
+        "AadhaarCardNo": "987401829869",
+        "Address": {
+          "CountryCodeMobile": 91,
+          "MobileNo": 9742863564,
+          "EmailAddress": "sanjay.singh.tomar@outlook.com",
+          "ResidenceNo": "120905 SOBHA DREAMACRES",
+          "ResidenceName": "PANATHUR ROAD",
+          "RoadOrStreet": "Gunjur",
+          "LocalityOrArea": "BANGALORE RURAL",
+          "CityOrTownOrDistrict": "Gunjur B.O",
+          "StateCode": "15",
+          "CountryCode": "91",
+          "PinCode": 560087
+        },
+        "EmployerCategory": "OTH"
+      },
+      "FilingStatus": {
+        "ReturnFileSec": 11,
+        "ItrFilingDueDate": "2025-07-31",
+        "OptOutNewTaxRegime": "Y",
+        "SeventhProvisio139": "N"
+      },
+      "Verification": {
+        "Declaration": {
+          "AssesseeVerName": "SANJAY SINGH TOMAR",
+          "FatherName": "SURESH SINGH TOMAR",
+          "AssesseeVerPAN": "AKAPT6332Q"
+        },
+        "Capacity": "S",
+        "Place": "BANGALORE"
+      },
+      "ITR1_IncomeDeductions": {
+        "GrossSalary": 5445179,
+        "Salary": 5444452,
+        "PerquisitesValue": 727,
+        "ProfitsInSalary": 0,
+        "IncomeNotified89A": 0,
+        "AllwncExemptUs10": {
+          "TotalAllwncExemptUs10": 272074,
+          "AllwncExemptUs10Dtls": [
+            {
+              "SalNatureDesc": "10(5)",
+              "SalOthAmount": 0
+            },
+            {
+              "SalNatureDesc": "10(10)",
+              "SalOthAmount": 0
+            },
+            {
+              "SalNatureDesc": "10(10A)",
+              "SalOthAmount": 0
+            },
+            {
+              "SalNatureDesc": "10(13A)",
+              "SalOthAmount": 272074
+            }
+          ]
+        },
+        "Increliefus89A": 0,
+        "NetSalary": 5173105,
+        "DeductionUs16": 52400,
+        "DeductionUs16ia": 50000,
+        "EntertainmentAlw16ii": 0,
+        "ProfessionalTaxUs16iii": 2400,
+        "IncomeFromSal": 5120705,
+        "TypeOfHP": "S",
+        "AnnualValue": 0,
+        "StandardDeduction": 0,
+        "InterestPayable": 0,
+        "ArrearsUnrealizedRentRcvd": 0,
+        "TotalIncomeOfHP": 0,
+        "OthersInc": {
+          "OthersIncDtlsOthSrc": [
+            {
+              "OthSrcNatureDesc": "DIV",
+              "OthSrcOthAmount": 26043,
+              "DividendInc": {
+                "DateRange": {
+                  "Upto15Of6": 26043,
+                  "Upto15Of9": 0,
+                  "Up16Of9To15Of12": 0,
+                  "Up16Of12To15Of3": 0,
+                  "Up16Of3To31Of3": 0
+                }
+              }
+            },
+            {
+              "OthSrcNatureDesc": "SAV",
+              "OthSrcOthAmount": 28264
+            },
+            {
+              "OthSrcNatureDesc": "TAX",
+              "OthSrcOthAmount": 0
+            }
+          ]
+        },
+        "IncomeOthSrc": 54307,
+        "GrossTotIncome": 5175012,
+        "GrossTotIncomeIncLTCG112A": 5175012,
+        "UsrDeductUndChapVIA": {
+          "Section80C": 177000,
+          "Section80CCC": 0,
+          "Section80CCDEmployeeOrSE": 0,
+          "Section80CCD1B": 50000,
+          "PRANNum": "",
+          "Section80CCDEmployer": 0,
+          "AnyOthSec80CCH": 0,
+          "Section80D": 70000,
+          "Section80DD": 125000,
+          "Section80DDBUsrType": "2",
+          "NameOfSpecDisease80DDB": "",
+          "Section80DDB": 100000,
+          "Section80E": 0,
+          "Section80EE": 0,
+          "Section80EEA": 0,
+          "Section80EEB": 0,
+          "Section80G": 0,
+          "Section80GG": 0,
+          "Section80GGA": 0,
+          "Section80GGC": 0,
+          "Section80TTA": 28264,
+          "Section80TTB": 0,
+          "Section80U": 0,
+          "TotalChapVIADeductions": 550264
+        },
+        "DeductUndChapVIA": {
+          "Section80C": 150000,
+          "Section80CCC": 0,
+          "Section80CCDEmployeeOrSE": 0,
+          "Section80CCD1B": 50000,
+          "Section80CCDEmployer": 0,
+          "AnyOthSec80CCH": 0,
+          "Section80D": 70000,
+          "Section80DD": 125000,
+          "Section80DDB": 100000,
+          "Section80E": 0,
+          "Section80EE": 0,
+          "Section80EEA": 0,
+          "Section80EEB": 0,
+          "Section80G": 0,
+          "Section80GG": 0,
+          "Section80GGA": 0,
+          "Section80GGC": 0,
+          "Section80TTA": 10000,
+          "Section80TTB": 0,
+          "Section80U": 0,
+          "TotalChapVIADeductions": 505000
+        },
+        "TotalIncome": 4670010
+      },
+      "ScheduleEA10_13A": {
+        "Placeofwork": "2",
+        "ActlHRARecv": 1039632,
+        "ActlRentPaid": 480000,
+        "DtlsSalUsSec171": 2079264,
+        "BasicSalary": 2079264,
+        "DearnessAllwnc": 0,
+        "ActlRentPaid10Per": 272074,
+        "Sal40Or50Per": 1039632,
+        "EligbleExmpAllwncUs13A": 272074
+      },
+      "Schedule80C": {
+        "Schedule80CDtls": [
+          {
+            "Amount": 150000,
+            "IdentificationNo": "ppf"
+          },
+          {
+            "Amount": 27000,
+            "IdentificationNo": "INSURANCE POLICY"
+          }
+        ],
+        "TotalAmt": 177000
+      },
+      "Schedule80D": {
+        "Sec80DSelfFamSrCtznHealth": {
+          "SeniorCitizenFlag": "N",
+          "SelfAndFamily": 20000,
+          "HealthInsPremSlfFam": 20000,
+          "Sec80DSelfFamHIDtls": {
+            "Sch80DInsDtls": [
+              {
+                "InsurerName": "na",
+                "PolicyNo": "na",
+                "HealthInsAmt": 20000
+              }
+            ],
+            "TotalPayments": 20000
+          },
+          "PrevHlthChckUpSlfFam": 0,
+          "SelfAndFamilySeniorCitizen": 0,
+          "HlthInsPremSlfFamSrCtzn": 0,
+          "PrevHlthChckUpSlfFamSrCtzn": 0,
+          "MedicalExpSlfFamSrCtzn": 0,
+          "ParentsSeniorCitizenFlag": "Y",
+          "Parents": 0,
+          "HlthInsPremParents": 0,
+          "PrevHlthChckUpParents": 0,
+          "ParentsSeniorCitizen": 50000,
+          "HlthInsPremParentsSrCtzn": 50000,
+          "Sec80DParentsSrCtznHIDtls": {
+            "Sch80DInsDtls": [
+              {
+                "InsurerName": "na",
+                "PolicyNo": "na",
+                "HealthInsAmt": 50000
+              }
+            ],
+            "TotalPayments": 50000
+          },
+          "PrevHlthChckUpParentsSrCtzn": 0,
+          "MedicalExpParentsSrCtzn": 0,
+          "EligibleAmountOfDedn": 70000
+        }
+      },
+      "Schedule80DD": {
+        "NatureOfDisability": "2",
+        "DeductionAmount": 125000,
+        "TypeOfDisability": "1",
+        "DependentType": "4",
+        "Form10IAAckNum": "175607390210625"
+      },
+      "TDSonSalaries": {
+        "TDSonSalary": [
+          {
+            "EmployerOrDeductorOrCollectDetl": {
+              "TAN": "MUMJ05980C",
+              "EmployerOrDeductorOrCollecterName": "J P MORGAN SERVICES INDIA PRIVATE LIMITED"
+            },
+            "IncChrgSal": 5445174,
+            "TotalTDSSal": 1487489
+          }
+        ],
+        "TotalTDSonSalaries": 1487489
+      },
+      "TDSonOthThanSals": {
+        "TDSonOthThanSal": [
+          {
+            "EmployerOrDeductorOrCollectDetl": {
+              "TAN": "DELO07879E",
+              "EmployerOrDeductorOrCollecterName": "OIL AND NATURAL GAS CORPORATION LIMITED"
+            },
+            "TDSSection": "194",
+            "AmtForTaxDeduct": 23650,
+            "DeductedYr": "",
+            "TotTDSOnAmtPaid": 2490,
+            "ClaimOutOfTotTDSOnAmtPaid": 2490
+          },
+          {
+            "EmployerOrDeductorOrCollectDetl": {
+              "TAN": "MUMH03189E",
+              "EmployerOrDeductorOrCollecterName": "HDFC BANK LIMITED"
+            },
+            "TDSSection": "94A",
+            "AmtForTaxDeduct": 54836,
+            "DeductedYr": "",
+            "TotTDSOnAmtPaid": 5483,
+            "ClaimOutOfTotTDSOnAmtPaid": 5483
+          }
+        ],
+        "TotalTDSonOthThanSals": 7973
+      },
+      "ScheduleTDS3Dtls": {
+        "TotalTDS3Details": 0
+      },
+      "ScheduleTCS": {
+        "TotalSchTCS": 0
+      },
+      "TaxPayments": {
+        "TotalTaxPayments": 0
+      },
+      "ITR1_TaxComputation": {
+        "TotalTaxPayable": 1213503,
+        "Rebate87A": 0,
+        "TaxPayableOnRebate": 1213503,
+        "EducationCess": 48540,
+        "GrossTaxLiability": 1262043,
+        "Section89": 0,
+        "NetTaxLiability": 1262043,
+        "IntrstPay": {
+          "IntrstPayUs234A": 0,
+          "IntrstPayUs234B": 0,
+          "IntrstPayUs234C": 0,
+          "LateFilingFee234F": 0
+        },
+        "TotalIntrstPay": 0,
+        "TotTaxPlusIntrstPay": 1262043
+      }
+    }
+  }
+}

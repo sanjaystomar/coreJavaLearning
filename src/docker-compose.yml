@@ -1,0 +1,5 @@
+version: '3'
+services:
+  app:
+    build: .
+    image: my-java-helloworld:1.0
