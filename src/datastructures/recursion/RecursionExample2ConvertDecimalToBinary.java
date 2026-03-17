@@ -10,6 +10,9 @@ public class RecursionExample2ConvertDecimalToBinary {
         System.out.println(reverseBinaryString);
         System.out.println("====================");
         System.out.println(convertDecimalToBinaryAppr2("",130));
+        System.out.println("====================");
+        System.out.println(convertDecimalToBinaryIterative(130));
+
 
     }
     static StringBuilder sb = new StringBuilder();
@@ -61,15 +64,12 @@ public class RecursionExample2ConvertDecimalToBinary {
         return convertDecimalToBinaryAppr2(String.valueOf(decimalNumber%2),decimalNumber/2).concat(binStr);
     }
 
-   /* static String printAllRemainders(int decimalNumber) {
-       String binaryString = Integer.toBinaryString(decimalNumber);
-        System.out.println("Expected Binary String: " + binaryString);
-        StringBuilder actualBinaryString = new StringBuilder();
-        while (decimalNumber != 0) {
-           decimalNumber/=2;
-           actualBinaryString.append(decimalNumber%2);
-           System.out.println(actualBinaryString.toString());
-       }
-        return actualBinaryString.toString();
-    }*/
+  static String convertDecimalToBinaryIterative(int decimalNumber) {
+        String binStr = "";
+        while (decimalNumber > 0) {
+            binStr = String.valueOf(decimalNumber%2).concat(binStr);
+            decimalNumber=decimalNumber/2;
+        }
+        return binStr;
+  }
 }
