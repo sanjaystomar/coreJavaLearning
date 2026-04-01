@@ -1,5 +1,9 @@
 package datastructures.recursion;
 
+/**
+ * Good site for conversion check and understanding:
+ * link: https://www.rapidtables.com/convert/number/binary-to-decimal.html?x=10000010
+ */
 public class RecursionExample2ConvertDecimalToBinary {
     static void main() {
         int decimalNumber1 = 228;

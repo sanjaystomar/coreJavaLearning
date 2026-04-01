@@ -1,7 +1,8 @@
 # 🔴 Hard DSA Problems — 334 Questions
 
 > Advanced topics: Graphs · Dynamic Programming · Segment Trees · Tries · Divide & Conquer · Computational Geometry · String Algorithms · Advanced Data Structures
-
+### 0. Padcals triangle
+https://math.stackexchange.com/questions/5094604/solutions-to-the-recursion-equation-pascals-triangle
 ---
 
 ### 1. Median of Two Sorted Arrays
