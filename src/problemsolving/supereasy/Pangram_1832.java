@@ -16,7 +16,7 @@ package problemsolving.supereasy;
  * 1 <= sentence.length <= 1000
  * sentence consists of lowercase English letters.
  */
-public class Pangram {
+public class Pangram_1832 {
     
     static void main() {
 //        System.out.println(solution("thequickbrownfoxjumpsoverthelazydog"));

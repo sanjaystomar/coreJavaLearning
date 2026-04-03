@@ -27,7 +27,7 @@ package problemsolving.supereasy;
  * 1 <= n == hours.length <= 50
  * 0 <= hours[i], target <= 105
  */
-public class NmbEmpMetTarget {
+public class NmbEmpMetTarget_2798 {
     static void main() {
         int[] hrs1 = new int[]{0,1,2,3,4};
         int target1 = 2;

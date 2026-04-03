@@ -26,7 +26,7 @@ import java.util.Arrays;
  * 1 <= nums[i] <= 100
  * nums.length % 2 == 0
  */
-public class MinimumNumbrGame {
+public class MinimumNumbrGame_2974 {
     
     static void main() {
 

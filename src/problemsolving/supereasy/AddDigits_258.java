@@ -1,6 +1,6 @@
 package problemsolving.supereasy;
 
-public class AddDigits {
+public class AddDigits_258 {
     /**
      * Example 1:
      * <p>

@@ -25,7 +25,7 @@ package problemsolving.supereasy;
  * 1 <= words[i].length <= 100
  * words[i] consists only of lowercase English letters.
  */
-public class FrstPallindromicStrInArray {
+public class FrstPallindromicStrInArray_2108 {
     static void main() {
         String[] words1 = new String[]{"abc", "car", "ada", "racecar", "cool"};
         String[] words2 = new String[]{"notapalindrome", "racecar"};

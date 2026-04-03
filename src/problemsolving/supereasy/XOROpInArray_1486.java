@@ -21,9 +21,9 @@ package problemsolving.supereasy;
  * 0 <= start <= 1000
  * n == nums.length
  */
-public class XOROpInArray {
+public class XOROpInArray_1486 {
     static void main() {
-//        System.out.println(solution(5,0));
+        System.out.println(solution(5,0));
         System.out.println(solution(4,3));
     }
     
@@ -31,8 +31,22 @@ public class XOROpInArray {
         int initialXOR = start;
         int[] nums = new int[n];
         for (int i = 0; i < n; i++) {
-            initialXOR = initialXOR ^ (start+2*i);
+            nums[i] = start + 2 * i;
+            if(i > 0) initialXOR = initialXOR ^ nums[i];
         }
         return initialXOR;
     }
 }
+
+/**
+ *  public int xorOperation(int n, int start) {
+ *         int[] nums=new int[n];
+ *         int total=0;
+ *         for(int i=0;i<n;i++){
+ *             nums[i]=start+2*i;
+ *             total=total^nums[i];
+ *         }
+ *         System.out.println(Arrays.toString(nums));
+ *         return total;
+ *     }
+ */

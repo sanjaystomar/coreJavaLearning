@@ -32,7 +32,7 @@ import java.util.Optional;
  * All the words in sentences[i] are separated by a single space.
  */
 
-public class MaxNoWordsInSentences {
+public class MaxNoWordsInSentences_2114 {
     static void main() {
         String[] sentenceArr1 = new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
         String[] sentenceArr2 = new String[]{"please wait", "continue to fight", "continue to win"};

@@ -21,7 +21,7 @@ import java.util.Optional;
  * 1 <= s.length <= 105
  * s consists of only lowercase English letters.
  */
-public class FirstUniqueCharInStr {
+public class FirstUniqueCharInStr_387 {
     
     static void main() {
         String sample1 = "leetcode";

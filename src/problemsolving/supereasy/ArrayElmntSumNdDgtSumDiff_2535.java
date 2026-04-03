@@ -28,7 +28,7 @@ package problemsolving.supereasy;
  * 1 <= nums[i] <= 2000
  */
 
-public class ArrayElmntSumNdDgtSumDiff {
+public class ArrayElmntSumNdDgtSumDiff_2535 {
     static void main() {
         int[] nums1 = new int[]{1,15,6,3};
         int[] nums2 = new int[]{1,2,3,4};

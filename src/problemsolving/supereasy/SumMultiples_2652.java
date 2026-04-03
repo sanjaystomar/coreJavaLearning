@@ -22,7 +22,7 @@ package problemsolving.supereasy;
  * Constraints:
  * 1 <= n <= 103
  */
-public class SumMultiples {
+public class SumMultiples_2652 {
     static void main() {
         System.out.println(solution(7));
         System.out.println(solution(10));

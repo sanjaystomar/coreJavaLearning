@@ -23,7 +23,7 @@ package problemsolving.supereasy;
  * 1 <= num <= 109
  * num does not contain 0 as one of its digits.
  */
-public class CntDigitsThatDivideNmbr {
+public class CntDigitsThatDivideNmbr_2520 {
     static void main() {
         int num1 = 121;
         int num2 = 1248;

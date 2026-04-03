@@ -1,8 +1,10 @@
 ### IntelliJ IDEA ###
+.idea/
+*.xml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-*.xml
+
 
 ### Eclipse ###
 .apt_generated
